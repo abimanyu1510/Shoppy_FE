@@ -52,9 +52,21 @@ nav {
   box-shadow:1px 1px 1px 1px  #101013; 
 }
 .input-group {
-  width: 90%;
-  margin-right: 35%;
+  /* width: 90%;
+  margin-right: 35%; */
+
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 45%;
+  transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
+.input-group:hover{
+  width: 80%;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+
 
 #search_field {
   height: 2.4rem;
@@ -63,7 +75,7 @@ nav {
 
 }
 
-#login_btn,
+
 #view_btn {
   background-color: #5d5c61; 
   padding: 0.4rem 1.8rem;
@@ -71,20 +83,33 @@ nav {
   color: #e3e3e3;
   box-shadow:1px 1px 1px 1px rgb(241, 162, 71); 
 }
+#login_btn{
+  background: linear-gradient(90deg, #ECF0F1 ,#F39C12 );
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
 #login_btn:hover{
-  background-color: #eeeeee;
+  /* background-color: #eeeeee;
   color: #2e2e2e;
   font-weight: 600;
- box-shadow: 1px 1px 1px 1px  #4e4e55;
+ box-shadow: 1px 1px 1px 1px  #4e4e55; */
+
+ background: linear-gradient(90deg, #283747, #f3f3f5);
 }
 
 #cart {
   font-size: 1rem;
   color: white;
+  padding: 0.5rem;
 }
 
 #cart_count {
-  background-color: #febd69;
+  background-color: #f79e2a;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
   color: black;
@@ -100,7 +125,7 @@ nav {
 
 }
 #logo:hover{
-  filter: drop-shadow(3px 3px 7px #e4d509);
+  filter: drop-shadow(3px 3px 7px #c4d5f3);
    /* transition: all 2s ease-in-out; */
   /* border-radius: 59%; */
   /* transform:translateX(20px); */
@@ -426,7 +451,7 @@ footer {
 }
 
 .avatar img:hover{
-  filter: drop-shadow(3px 3px 3px #e4d509);
+  filter: drop-shadow(3px 3px 3px #c4d5f3);
   transform: scale(1.2);
 }
 .rounded-circle {
