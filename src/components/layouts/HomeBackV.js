@@ -17,14 +17,14 @@ const HomeBackV = () => {
       <h2 className="v-hd text-center mb" style={{fontStyle:'italic'}} id='letter'>SHOPPING  <i className="fa-brands fa-wordpress-simple"></i>ORLD</h2>
       </div>
       <div data-aos="fade-down-left">
-      <p className="text-dark my-4 fs-6 fw-bold  text-center"> <b>Save time and effort:</b> You don’t want to waste time waiting and browsing the aisles during peak shopping hours only to discover that what you sought is already out of stock. This issue is easily solved by ordering online and having your things delivered to the closest and most convenient pickup location.
+      <p className="text-dark my-4 fs-6 fw-bold  text-center" id="sentence"> <b>Save time and effort:</b> You don’t want to waste time waiting and browsing the aisles during peak shopping hours only to discover that what you sought is already out of stock. This issue is easily solved by ordering online and having your things delivered to the closest and most convenient pickup location.
 
 <br/> <b> Optional freedom:</b> When you shop online, you have a far wider range of product possibilities. When compared to what is available in-store, a particular product will be available online in a far wider range of sizes and colors.</p>
       </div>
       <div className="row text-dark my-4">
         <div className="col">
           <div data-aos="flip-right">
-          <h3 className="v-hd text-center mb" style={{fontStyle:'italic'}}>Lowest Price Best Quality &nbsp; <i class="fa-solid fa-cart-shopping"></i></h3>
+          <h3 className="v-hd text-center mb" style={{fontStyle:'italic'}} id="low">Lowest Price Best Quality &nbsp; <i class="fa-solid fa-cart-shopping"></i></h3>
           </div>
         </div>
        </div>

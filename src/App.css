@@ -113,7 +113,10 @@ nav {
 /* Home page */
 #products_heading {
   margin-top: 1.8rem;
-  text-shadow: 2px 2px rgb(112, 112, 192);
+  background: url("./assets/Shopping-Bay.jpg") no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #products_heading:hover{
   text-align:center;
@@ -164,16 +167,37 @@ nav {
   color: rgb(231, 183, 25);
   margin-left: 0.5rem;
 }
+#sentence:hover{
+  background-color: #f2f2f2;
+  padding: 5px;
+}
 
+#low:hover{
+ 
+  background: url("./assets/isto1.jpg") no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
  #letter:hover{
-   color: #364558!important;
+   /* color: #364558!important;
   text-shadow:2px 2px 2px #667180;
-  transform: scale(1.2); 
+  transform: scale(1.2);  */
+
+  background: url("./assets/isto1.jpg") no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
  }
   
-  
+ #product1{
+  display: flex;
+ justify-content:space-evenly;
+ flex-wrap:wrap;
+ 
+} 
 
 
 /* Footer */
